@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="100%" height="100%">
+  <defs>
+    <!-- Vibrant Violet to Neon Magenta Gradient -->
+    <linearGradient id="footerPrimaryGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f0abfc" />
+    </linearGradient>
+
+    <!-- Arrow gradient for dark background -->
+    <linearGradient id="footerArrowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+
+  <!-- ICON BADGE -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Orbit Ring -->
+    <path d="M 40 4 A 36 36 0 1 0 76 40" fill="none" stroke="url(#footerPrimaryGrad)" stroke-width="6.5" stroke-linecap="round" />
+    
+    <!-- Trading Growth Bars -->
+    <rect x="22" y="44" width="7" height="18" rx="2" fill="#a855f7" />
+    <rect x="33" y="34" width="7" height="28" rx="2" fill="#c084fc" />
+    <rect x="44" y="24" width="7" height="38" rx="2" fill="#ffffff" />
+    
+    <!-- Sharp Bullish Trend Arrow -->
+    <path d="M 18 56 Q 38 46 68 14" fill="none" stroke="url(#footerArrowGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+    <polygon points="68,6 74,18 61,17" fill="#ffffff" />
+    
+    <!-- Sparkle dot -->
+    <circle cx="68" cy="14" r="3" fill="#d946ef" />
+  </g>
+
+  <!-- BRAND TYPOGRAPHY: ORVEXA (White for dark footer) -->
+  <g transform="translate(106, 56)">
+    <text font-family="'Poppins', 'Montserrat', -apple-system, sans-serif" font-weight="900" font-size="44" letter-spacing="1.5" fill="#ffffff">ORVEX<tspan fill="url(#footerPrimaryGrad)">A</tspan></text>
+  </g>
+
+  <!-- SUBTITLE TAGLINE -->
+  <g transform="translate(108, 77)">
+    <text font-family="'Poppins', 'Montserrat', -apple-system, sans-serif" font-weight="700" font-size="9.5" letter-spacing="4.2" fill="#e879f9">INVEST TODAY <tspan fill="#f0abfc">•</tspan> GROW TOMORROW</text>
+  </g>
+</svg>

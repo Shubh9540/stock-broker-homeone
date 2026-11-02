@@ -1,0 +1,865 @@
+{
+  "common": {
+    "Footer": {
+      "logo": "/main logo/footer-logo.webp",
+      "logoAlt": "ORVEXA Logo",
+      "logoUrl": "/",
+      "brandTitle": "ORVEXA",
+      "copyrightText": "© 2026 ORVEXA. All Rights Reserved. Powered By Lestow",
+      "description": "A premier stock brokerage and advisory firm committed to transparent wealth creation, advanced market research, and dedicated client service.",
+      "quickLinksTitle": "Quick Links",
+      "contactTitle": "Contact Us",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-linkedin",
+          "icon": "FaLinkedinIn",
+          "label": "LinkedIn",
+          "url": "https://linkedin.com"
+        },
+        {
+          "id": "social-youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-home",
+          "label": "Home",
+          "url": "/#home"
+        },
+        {
+          "id": "quick-about",
+          "label": "About Us",
+          "url": "/#about"
+        },
+        {
+          "id": "quick-services",
+          "label": "Services",
+          "url": "/#services"
+        },
+        {
+          "id": "quick-why-choose-us",
+          "label": "Why Choose Us",
+          "url": "/#why-choose-us"
+        },
+        {
+          "id": "quick-process",
+          "label": "Process",
+          "url": "/#process"
+        },
+        {
+          "id": "quick-testimonials",
+          "label": "Testimonials",
+          "url": "/#testimonials"
+        },
+        {
+          "id": "quick-team",
+          "label": "Our Team",
+          "url": "/#team"
+        },
+        {
+          "id": "quick-contact",
+          "label": "Contact Us",
+          "url": "/#contact"
+        }
+      ],
+      "contactInfo": {
+        "email": "info@xyz.com",
+        "phone": "+1 000000000",
+        "address": "123 Main St, New York, NY, USA"
+      }
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    }
+  },
+  "categories": {
+    "StockBroker": {
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "StockBrokerTopBar2": {
+              "tagline": "Smart Investment & Advisory Services for Confident Growth",
+              "taglineIcon": "FaChartLine",
+              "phoneValue": "+1 000000000",
+              "emailValue": "info@xyz.com",
+              "locationValue": "123 Main St, New York, NY, USA",
+              "socialLinks": [
+                {
+                  "id": "tb-linkedin",
+                  "icon": "FaLinkedinIn",
+                  "url": "https://www.linkedin.com"
+                },
+                {
+                  "id": "tb-instagram",
+                  "icon": "FaInstagram",
+                  "url": "https://www.instagram.com"
+                },
+                {
+                  "id": "tb-youtube",
+                  "icon": "FaYoutube",
+                  "url": "https://www.youtube.com"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "StockBrokerHeader2": {
+              "logo": "/main logo/header-logo.webp",
+              "logoAlt": "ORVEXA Stock Broker",
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/#home"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/#about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "/#services"
+                },
+                {
+                  "id": "nl-why-choose-us",
+                  "label": "Why Choose Us",
+                  "url": "/#why-choose-us"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-process",
+                  "label": "Process",
+                  "url": "/#process"
+                },
+                {
+                  "id": "nl-testimonials",
+                  "label": "Testimonials",
+                  "url": "/#testimonials"
+                },
+                {
+                  "id": "nl-team",
+                  "label": "Team",
+                  "url": "/#team"
+                }
+              ],
+              "contactButton": {
+                "text": "Contact Us",
+                "url": "/#contact"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "StockBrokerHero2": {
+              "previousSlideLabel": "Previous slide",
+              "nextSlideLabel": "Next slide",
+              "counterSeparator": "/",
+              "autoplayDelay": 6000,
+              "slides": [
+                {
+                  "id": "slide-1",
+                  "number": "01",
+                  "titleLine1": "INTELLIGENT",
+                  "titleLine2": "STOCK",
+                  "highlightedTitle": "TRADING",
+                  "titleLine3": "SOLUTIONS",
+                  "description": "Accelerate your portfolio performance with real-time market insights, low latency execution, and tailored financial guidance.",
+                  "image": "/images/hero-1.webp",
+                  "imageAlt": "Investor reviewing forex market charts",
+                  "primaryButton": {
+                    "text": "Get In Touch",
+                    "url": "/#contact",
+                    "icon": "FaArrowRight"
+                  },
+                  "secondaryButton": {
+                    "text": "View Services",
+                    "url": "/#services",
+                    "icon": "FaChartBar"
+                  }
+                },
+                {
+                  "id": "slide-2",
+                  "number": "02",
+                  "titleLine1": "STRATEGIC",
+                  "titleLine2": "WEALTH",
+                  "highlightedTitle": "CREATION",
+                  "titleLine3": "PARTNERS",
+                  "description": "Navigate global financial markets with institutional-grade research, transparent pricing, and trusted portfolio management.",
+                  "image": "/images/hero-2.webp",
+                  "imageAlt": "Investor studying global financial market displays",
+                  "primaryButton": {
+                    "text": "Contact Advisor",
+                    "url": "/#contact",
+                    "icon": "FaArrowRight"
+                  },
+                  "secondaryButton": {
+                    "text": "Explore Services",
+                    "url": "/#services",
+                    "icon": "FaChartBar"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "StockBrokerAboutUs2": {
+              "subtitle": "WHO WE ARE",
+              "title1": "Empowering Investors Across",
+              "highlightedTitle": "50,000+",
+              "title2": "Active Portfolios",
+              "description": "We bring simplicity, institutional clarity, and disciplined risk management to individual wealth creation. Our mission is to make smart investing accessible, transparent, and rewarding for every client.",
+              "imageMain": "/images/about-main.webp",
+              "imageMainAlt": "Experienced ORVEXA market professional",
+              "imageSecondary": "/images/about-secondary.webp",
+              "imageSecondaryAlt": "ORVEXA trader analysing financial markets",
+              "experienceValue": "18+",
+              "experienceLabel": "Years of Market Leadership",
+              "progressItems": [
+                {
+                  "id": "progress-1",
+                  "percentage": 97,
+                  "label": "Client Retention Rate"
+                },
+                {
+                  "id": "progress-2",
+                  "percentage": 94,
+                  "label": "Accurate Market Forecasts"
+                }
+              ],
+              "features": [
+                {
+                  "id": "about-feat-1",
+                  "icon": "FaShieldAlt",
+                  "label": "Regulated & Transparent Processes"
+                },
+                {
+                  "id": "about-feat-2",
+                  "icon": "FaUsers",
+                  "label": "Certified Advisory Team"
+                },
+                {
+                  "id": "about-feat-3",
+                  "icon": "FaChartBar",
+                  "label": "Data-Driven Market Research"
+                },
+                {
+                  "id": "about-feat-4",
+                  "icon": "FaChartLine",
+                  "label": "Zero Hidden Charges"
+                }
+              ],
+              "button": {
+                "text": "Consult Our Experts",
+                "url": "/#contact"
+              },
+              "support": {
+                "icon": "FaPhoneAlt",
+                "label": "Support us",
+                "value": "+1 000000000",
+                "url": "tel:+1000000000"
+              }
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "StockBrokerTeam2": {
+              "subtitle": "LEADERSHIP & ADVISORY",
+              "title1": "Experienced Professionals",
+              "highlightedTitle": "Driving Your Success",
+              "description": "Our seasoned analysts, risk managers, and investment strategists bring decades of collective capital market expertise.",
+              "members": [
+                {
+                  "id": "team-rohit-sharma",
+                  "name": "Rohit Sharma",
+                  "role": "Chief Executive Officer",
+                  "description": "18+ years steering institutional wealth advisory, macro strategy, and corporate finance.",
+                  "image": "/images/team-1.webp",
+                  "imageAlt": "Rohit Sharma, Chief Executive Officer",
+                  "socialLinks": [
+                    {
+                      "id": "rohit-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Rohit Sharma on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    },
+                    {
+                      "id": "rohit-twitter",
+                      "icon": "FaTwitter",
+                      "label": "Rohit Sharma on Twitter",
+                      "url": "https://twitter.com"
+                    },
+                    {
+                      "id": "rohit-email",
+                      "icon": "FaEnvelope",
+                      "label": "Email Rohit Sharma",
+                      "url": "mailto:info@xyz.com"
+                    }
+                  ]
+                },
+                {
+                  "id": "team-priya-mehta",
+                  "name": "Priya Mehta",
+                  "role": "Chief Investment Officer",
+                  "description": "Oversees equity research pipelines with deep specialization in high-conviction growth themes.",
+                  "image": "/images/team-2.webp",
+                  "imageAlt": "Priya Mehta, Chief Investment Officer",
+                  "socialLinks": [
+                    {
+                      "id": "priya-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Priya Mehta on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    },
+                    {
+                      "id": "priya-twitter",
+                      "icon": "FaTwitter",
+                      "label": "Priya Mehta on Twitter",
+                      "url": "https://twitter.com"
+                    },
+                    {
+                      "id": "priya-email",
+                      "icon": "FaEnvelope",
+                      "label": "Email Priya Mehta",
+                      "url": "mailto:info@xyz.com"
+                    }
+                  ]
+                },
+                {
+                  "id": "team-amit-verma",
+                  "name": "Amit Verma",
+                  "role": "Head of Research",
+                  "description": "Directs market quantitative models, technical screeners, and daily actionable trade briefings.",
+                  "image": "/images/team-3.webp",
+                  "imageAlt": "Amit Verma, Head of Research",
+                  "socialLinks": [
+                    {
+                      "id": "amit-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Amit Verma on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    },
+                    {
+                      "id": "amit-twitter",
+                      "icon": "FaTwitter",
+                      "label": "Amit Verma on Twitter",
+                      "url": "https://twitter.com"
+                    },
+                    {
+                      "id": "amit-email",
+                      "icon": "FaEnvelope",
+                      "label": "Email Amit Verma",
+                      "url": "mailto:info@xyz.com"
+                    }
+                  ]
+                },
+                {
+                  "id": "team-neha-kapoor",
+                  "name": "Neha Kapoor",
+                  "role": "Financial Planning Head",
+                  "description": "Specializes in tailored wealth architecture, family trusts, and goal-based portfolio allocation.",
+                  "image": "/images/team-4.webp",
+                  "imageAlt": "Neha Kapoor, Financial Planning Head",
+                  "socialLinks": [
+                    {
+                      "id": "neha-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Neha Kapoor on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    },
+                    {
+                      "id": "neha-twitter",
+                      "icon": "FaTwitter",
+                      "label": "Neha Kapoor on Twitter",
+                      "url": "https://twitter.com"
+                    },
+                    {
+                      "id": "neha-email",
+                      "icon": "FaEnvelope",
+                      "label": "Email Neha Kapoor",
+                      "url": "mailto:info@xyz.com"
+                    }
+                  ]
+                },
+                {
+                  "id": "team-karan-malhotra",
+                  "name": "Karan Malhotra",
+                  "role": "Risk Management Lead",
+                  "description": "Leads rigorous risk assessment protocols, portfolio hedging, and margin policy governance.",
+                  "image": "/images/team-5.webp",
+                  "imageAlt": "Karan Malhotra, Risk Management Lead",
+                  "socialLinks": [
+                    {
+                      "id": "karan-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Karan Malhotra on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    },
+                    {
+                      "id": "karan-twitter",
+                      "icon": "FaTwitter",
+                      "label": "Karan Malhotra on Twitter",
+                      "url": "https://twitter.com"
+                    },
+                    {
+                      "id": "karan-email",
+                      "icon": "FaEnvelope",
+                      "label": "Email Karan Malhotra",
+                      "url": "mailto:info@xyz.com"
+                    }
+                  ]
+                },
+                {
+                  "id": "team-sneha-rathi",
+                  "name": "Sneha Rathi",
+                  "role": "Client Relationship Manager",
+                  "description": "Ensures seamless client onboarding, continuous portfolio support, and advisory touchpoints.",
+                  "image": "/images/team-6.webp",
+                  "imageAlt": "Sneha Rathi, Client Relationship Manager",
+                  "socialLinks": [
+                    {
+                      "id": "sneha-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Sneha Rathi on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    },
+                    {
+                      "id": "sneha-twitter",
+                      "icon": "FaTwitter",
+                      "label": "Sneha Rathi on Twitter",
+                      "url": "https://twitter.com"
+                    },
+                    {
+                      "id": "sneha-email",
+                      "icon": "FaEnvelope",
+                      "label": "Email Sneha Rathi",
+                      "url": "mailto:info@xyz.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "StockBrokerServices2": {
+              "subtitle": "SPECIALIZED OFFERINGS",
+              "title1": "Comprehensive Financial",
+              "title2": "Solutions Built for You",
+              "description": "From direct equities and index derivatives to high-conviction mutual funds, access everything required to build lasting wealth.",
+              "linkText": "Get Started",
+              "services": [
+                {
+                  "id": "service-equity",
+                  "icon": "FaChartLine",
+                  "title": "Direct Equity Trading",
+                  "description": "Trade high-growth stocks with zero-friction execution, advanced charts, and real-time algorithmic alerts.",
+                  "image": "/images/service-1.webp",
+                  "imageAlt": "Direct Equity Trading dashboard",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-mutual-funds",
+                  "icon": "FaHandHoldingUsd",
+                  "title": "Curated Mutual Funds",
+                  "description": "Invest in high-performing systematic plans and index portfolios tailored to match your specific risk profile.",
+                  "image": "/images/service-2.webp",
+                  "imageAlt": "Curated Mutual Funds portfolio",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-ipo",
+                  "icon": "FaBuilding",
+                  "title": "Exclusive IPO Access",
+                  "description": "Apply seamlessly for promising primary market offerings with detailed pre-listing analysis and valuation reports.",
+                  "image": "/images/service-3.webp",
+                  "imageAlt": "IPO investment applications",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-derivatives",
+                  "icon": "FaChartBar",
+                  "title": "Futures & Options Desk",
+                  "description": "Hedge and trade volatility effectively using advanced Greek calculators, margin optimization, and screeners.",
+                  "image": "/images/service-4.webp",
+                  "imageAlt": "Futures and options desk",
+                  "url": "/#contact"
+                },
+                {
+                  "id": "service-research-advisory",
+                  "icon": "FaSearchDollar",
+                  "title": "Strategic Research & Advisory",
+                  "description": "Receive daily technical calls, fundamental teardowns, and actionable weekly swing trade recommendations.",
+                  "image": "/images/service-5.webp",
+                  "imageAlt": "Strategic financial advisory analysis",
+                  "url": "/#contact"
+                }
+              ]
+            }
+          }
+        },
+        "Process": {
+          "variants": {
+            "StockBrokerProcess2": {
+              "subtitle": "SEAMLESS ONBOARDING",
+              "title1": "Four Quick Steps to",
+              "title2": "Start Trading Today",
+              "description": "Our fully digital verification ensures you can begin executing strategic trades and building portfolios in minutes.",
+              "steps": [
+                {
+                  "id": "step-1",
+                  "icon": "FiEdit3",
+                  "number": "01",
+                  "title": "Instant Digital Sign-Up",
+                  "description": "Enter your primary details and complete a paperless registration in under 3 minutes.",
+                  "image": "/images/step-1.webp",
+                  "imageAlt": "Digital onboarding screen"
+                },
+                {
+                  "id": "step-2",
+                  "icon": "FiUserCheck",
+                  "number": "02",
+                  "title": "Rapid KYC Verification",
+                  "description": "Fast-track document validation with certified regulatory encryption standards.",
+                  "image": "/images/step-2.webp",
+                  "imageAlt": "KYC verification screen"
+                },
+                {
+                  "id": "step-3",
+                  "icon": "FiBarChart2",
+                  "number": "03",
+                  "title": "Fund & Deploy Capital",
+                  "description": "Link your verified bank account and start trading across diverse asset classes effortlessly.",
+                  "image": "/images/step-3.webp",
+                  "imageAlt": "Trading terminal screen"
+                },
+                {
+                  "id": "step-4",
+                  "icon": "FiTarget",
+                  "number": "04",
+                  "title": "Grow & Review Wealth",
+                  "description": "Track performance real-time with comprehensive reports and periodic advisor reviews.",
+                  "image": "/images/step-4.webp",
+                  "imageAlt": "Portfolio performance tracking"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "StockBrokerTestimonials2": {
+              "subtitle": "CLIENT STORIES",
+              "title1": "What Serious Investors",
+              "title2": "Say About Working With Us",
+              "description": "Hear authentic feedback from experienced day traders, high-net-worth individuals, and first-time equity investors.",
+              "previousLabel": "Previous testimonials",
+              "nextLabel": "Next testimonials",
+              "slideLabel": "Show testimonial",
+              "testimonials": [
+                {
+                  "id": "testimonial-1",
+                  "name": "Rohit Mehta",
+                  "location": "Active Equity Trader",
+                  "quote": "The speed of execution and clarity of daily technical calls have transformed my trading consistency. The team is genuinely responsive whenever I need assistance.",
+                  "rating": 5,
+                  "avatar": "/images/team-1.webp"
+                },
+                {
+                  "id": "testimonial-2",
+                  "name": "Priya Sharma",
+                  "location": "Private Wealth Client",
+                  "quote": "Switching our family wealth management here was one of our best decisions. Honest recommendations without any pushy sales tactics or hidden costs.",
+                  "rating": 5,
+                  "avatar": "/images/team-2.webp"
+                },
+                {
+                  "id": "testimonial-3",
+                  "name": "Amit Verma",
+                  "location": "Long-term Value Investor",
+                  "quote": "Their fundamental research reports are top-tier. They helped me construct a resilient core portfolio that weathered recent volatility with ease.",
+                  "rating": 5,
+                  "avatar": "/images/team-3.webp"
+                },
+                {
+                  "id": "testimonial-4",
+                  "name": "Neha Kapoor",
+                  "location": "Systematic SIP Investor",
+                  "quote": "As a beginner, I always feared complex charts. Their advisors explained allocation simply and set up disciplined plans aligned with my milestones.",
+                  "rating": 5,
+                  "avatar": "/images/team-4.webp"
+                },
+                {
+                  "id": "testimonial-5",
+                  "name": "Vikram Singh",
+                  "location": "Derivatives Specialist",
+                  "quote": "The low latency execution and solid margin optimization give me a competitive edge every morning. Dependable platform across volatile expiry days.",
+                  "rating": 5,
+                  "avatar": "/images/team-5.webp"
+                },
+                {
+                  "id": "testimonial-6",
+                  "name": "Ananya Patel",
+                  "location": "Tech Professional & Investor",
+                  "quote": "Fast onboarding, transparent account statements, and great mobile tools. Highly recommended for professionals who want clean wealth management.",
+                  "rating": 5,
+                  "avatar": "/images/team-6.webp"
+                }
+              ]
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "StockBrokerWhyChooseUs2": {
+              "subtitle": "WHY PARTNER WITH US",
+              "title1": "A Dependable Foundation for",
+              "title2": "Long-Term Prosperity",
+              "description": "We combine sophisticated analytical technology with personalized human guidance to help you navigate volatile market cycles with confidence.",
+              "features": [
+                {
+                  "id": "wc-1",
+                  "icon": "FaShieldAlt",
+                  "title": "Uncompromising Capital Safety",
+                  "description": "Strict compliance standards, segregated client accounts, and end-to-end transaction security."
+                },
+                {
+                  "id": "wc-2",
+                  "icon": "FaChartBar",
+                  "title": "Institutional-Grade Intelligence",
+                  "description": "Daily quantitative insights and macroeconomic briefings crafted by senior industry analysts."
+                },
+                {
+                  "id": "wc-3",
+                  "icon": "FaChartPie",
+                  "title": "Multi-Asset Diversification",
+                  "description": "Seamlessly allocate capital across equities, debt instruments, global ETFs, and primary offerings."
+                },
+                {
+                  "id": "wc-4",
+                  "icon": "FaUsers",
+                  "title": "Dedicated Wealth Advisors",
+                  "description": "One-on-one portfolio reviews and continuous assistance whenever market opportunities arise."
+                }
+              ],
+              "button": {
+                "text": "Start Today",
+                "url": "/#contact"
+              },
+              "showButton": true,
+              "imageMain": "/images/why-choose.webp",
+              "imageAlt": "ORVEXA investment advisor presenting wealth growth"
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "StockBrokerContact2": {
+              "intro": {
+                "eyebrow": "REACH OUR DESK",
+                "title": "Let's Discuss Your",
+                "titleHighlight": "Investment Goals",
+                "description": "Whether you are looking to open a new account, optimize your current holdings, or explore institutional advisory, our specialists are ready to guide you.",
+                "highlights": [
+                  {
+                    "id": "contact-highlight-response",
+                    "icon": "FaPhoneAlt",
+                    "title": "Prompt Turnaround",
+                    "description": "An advisor will reach out within business hours."
+                  },
+                  {
+                    "id": "contact-highlight-confidential",
+                    "icon": "FaShieldAlt",
+                    "title": "100% Confidential",
+                    "description": "Your financial details remain encrypted and private."
+                  },
+                  {
+                    "id": "contact-highlight-support",
+                    "icon": "FaUsers",
+                    "title": "Tailored Consultation",
+                    "description": "Direct discussion with certified market practitioners."
+                  }
+                ]
+              },
+              "form": {
+                "eyebrow": "SCHEDULE A CALL",
+                "helperText": "Share your investment requirements and we will connect with you shortly.",
+                "fullNamePlaceholder": "Full Name",
+                "phonePlaceholder": "Phone Number",
+                "emailPlaceholder": "Email Address",
+                "servicePlaceholder": "Select Service",
+                "messagePlaceholder": "Your Message",
+                "buttonText": "Request Consultation",
+                "privacyText": "Your information is safe with us. We never share your details with third parties.",
+                "successMessage": "Thank you! Your message has been received. Our team will contact you shortly.",
+                "servicesList": [
+                  {
+                    "id": "contact-service-equity",
+                    "label": "Equity Trading",
+                    "value": "equity-trading"
+                  },
+                  {
+                    "id": "contact-service-mutual-funds",
+                    "label": "Mutual Funds",
+                    "value": "mutual-funds"
+                  },
+                  {
+                    "id": "contact-service-ipo",
+                    "label": "IPO Investments",
+                    "value": "ipo-investments"
+                  },
+                  {
+                    "id": "contact-service-derivatives",
+                    "label": "Derivatives",
+                    "value": "derivatives"
+                  },
+                  {
+                    "id": "contact-service-research",
+                    "label": "Research & Advisory",
+                    "value": "research-advisory"
+                  },
+                  {
+                    "id": "contact-service-portfolio",
+                    "label": "Portfolio Management",
+                    "value": "portfolio-management"
+                  }
+                ]
+              },
+              "contactPanel": {
+                "eyebrow": "HEAD OFFICE & CHANNELS",
+                "title1": "Connect With Our",
+                "titleHighlight": "Advisory Desk",
+                "description": "Feel free to phone, email, or visit our central office for in-depth consultation on portfolio management.",
+                "items": [
+                  {
+                    "id": "contact-info-phone",
+                    "icon": "FaPhoneAlt",
+                    "title": "Phone",
+                    "lines": [
+                      {
+                        "id": "contact-phone-number",
+                        "text": "+1 000000000"
+                      },
+                      {
+                        "id": "contact-phone-hours",
+                        "text": "Mon - Sat, 9:00 AM - 6:00 PM"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "contact-info-email",
+                    "icon": "FaEnvelope",
+                    "title": "Email",
+                    "lines": [
+                      {
+                        "id": "contact-email-address",
+                        "text": "info@xyz.com"
+                      },
+                      {
+                        "id": "contact-email-response",
+                        "text": "We usually respond within 24 hours."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "contact-info-address",
+                    "icon": "FaMapMarkerAlt",
+                    "title": "Office Address",
+                    "lines": [
+                      {
+                        "id": "contact-office-address",
+                        "text": "123 Main St, New York, NY, USA"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "location": {
+                "eyebrow": "VISIT US",
+                "title": "Our Central Trading Office",
+                "description": "Schedule an in-person meeting with our investment committee to review your long-term wealth strategy.",
+                "buttonText": "Get Directions",
+                "buttonUrl": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA",
+                "mapUrl": "https://www.google.com/maps?q=123+Main+St,+New+York,+NY,+USA&output=embed",
+                "mapTitle": "Map showing the ORVEXA office location in New York"
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "StockBrokerTopBar2",
+          "Header": "StockBrokerHeader2",
+          "Footer": "StockBrokerFooter2"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "StockBrokerHero2"
+              },
+              {
+                "key": "AboutUs",
+                "component": "StockBrokerAboutUs2"
+              },
+              {
+                "key": "Services",
+                "component": "StockBrokerServices2"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "StockBrokerWhyChooseUs2"
+              },
+              {
+                "key": "Process",
+                "component": "StockBrokerProcess2"
+              },
+              {
+                "key": "Testimonials",
+                "component": "StockBrokerTestimonials2"
+              },
+              {
+                "key": "Team",
+                "component": "StockBrokerTeam2"
+              },
+              {
+                "key": "Contact",
+                "component": "StockBrokerContact2"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
